@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tables</title>
+    </head>
+    <body>
+        <table border="1"> <!--General table tag: Let's HTML know that there's going to be a table there-->
+            <thead> <!--T Head tag: Allows you to set the first row/header row of the table-->
+                <th>Number</th> <!-- The actual elements that we'll place inside the head row (a very top row); 
+                    Essentially the name of the columns in the table-->
+                <th>Color</th>
+                <th>Country</th>    
+            </thead>
+
+            <tr> <!-- = Table Rows-->
+                oi
+                <!-- Adding Table Cells - <td> one for each of the table elements, corresponding to each column  -->
+                <td>777</td> 
+                <td>Red</td>
+                <td>Japan</td>
+            </tr>
+
+            <tr>
+                <td>333</td>
+                <td>White</td>
+                <td>Korea</td>
+            </tr>    
+        </table>
+    </body>
+</html>
