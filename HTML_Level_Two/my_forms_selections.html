@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--We'll mimic a feedback page-->
+    <title>Hotel Feedbacks</title>  
+  </head>
+  <body>
+
+    <h1>Hotel Feedback Form</h1>
+
+    <form method="get">
+        <h2>Are you from inside Japan or outside?</h2>
+        
+        <!--Here we link the Inside and Outside Radio Buttons so that only one can be selected-->
+        <label for="injp">Inside:</label>
+        <input type="radio" id="injp" name="loc" value="inside">
+
+        <label for="outjp">Outside:</label>
+        <input type="radio" id="outjp" name="loc" value="outside">
+
+
+        <h2>How was your service?</h2>
+        <!--Drop Down Menu-->
+        <select name="stars">
+            <option value="">Select</option>
+            <option value="3">Great</option>
+            <option value="2">Okay</option>
+            <option value="1">Bad</option>
+        </select>
+
+        <h3>Aditional feedback?</h3>
+        <textarea name="text" cols="50" rows="10"></textarea>
+
+        <p><input type="submit" value="Submit"></p>
+
+    </form>
+  </body>
+</html>
